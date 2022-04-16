@@ -55,6 +55,7 @@ on run
           set theTarget to targets
 
           tell application "Visual Studio Code"
+              activate
               open theTarget
           end tell
 
